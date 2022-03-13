@@ -1,0 +1,25 @@
+﻿
+@model VendasCliente
+@{
+    ViewBag.Title = "Vender";
+}
+
+<h2>Vender</h2>
+
+<form asp-controller="VendasCliente" asp-action="Vender">
+
+
+    <label>Codigo do Cliente</label>
+    <input asp-for="CodigoDoCliente"></input>
+    
+    <label>Valor da Venda</label>
+    <input asp-for="Valor"></input>
+
+    <br>
+    <br>
+    <button class="btn btn-info" type="submit" onclick="Vender()">Realizar Venda</button>
+
+
+
+
+</form>
