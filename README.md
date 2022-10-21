@@ -1,1 +1,1 @@
-# Rangular Frontend with C# backend API.
+# Razor Frontend with C# backend API.
